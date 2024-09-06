@@ -22,10 +22,10 @@ section#telefone{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     height: 627px;
     width: 311px;
     background: url('../imagens/frame-iphone.png') no-repeat;
+    transform: translate(-50%, -50%);
 }
 section#redes-sociais img{
     width: 50px;
@@ -44,6 +44,7 @@ section#redes-sociais img:hover{
 }
 iframe#tela{
     position: relative;
+    display: block;
     top: 80px;
     left: 22px;
     height: 471px;
